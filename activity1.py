@@ -1,3 +1,4 @@
-print("Hello. Welcome to the world of Python!")
-print(23)
-print("hello", 34)
+def intro(name):
+    print("Hello, Good Morning! I am", name)
+user_name =input("Enter your name:")
+intro(user_name)
